@@ -7,11 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 use Twilio\Rest\Client;
 
 // Replace these with your actual credentials
-$mail_username = 'guruda7777@gmail.com'; // Your email
-$mail_password = 'tndkjgrmzvrSftcl'; // Your email app password (ensure it's correct)
-$twilio_sid = 'AC1b643fe8e89419ad94b3332c8ad396c3'; // Your Twilio SID
-$twilio_token = '0321c66c56cb7546795d2451947d739e'; // Your Twilio Token
-$twilio_phone_number = '+18647744573'; // Your Twilio phone number
+
 
 session_start();
 
